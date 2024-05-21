@@ -19,39 +19,45 @@ class _TipoJuegoView2State extends State<TipoJuegoView2> {
     final random = Random();
     final Map<String, List<String>> activities = {
       'Cocina': [
-        "Cocina algo delicioso",
-        "Inventa una receta",
-        "Hacer un postre",
-        "Hornea una torta",
-        "Un buen asado",
-        "Ricas crispetas",
-        "Nachos con Guacamole"
+        "Cocina algo rico hoy",
+        "Inventa una receta nueva y preparala para tu familia",
+        "Cocina un rico postre",
+        "Hornea una rica torta",
+        "Realizar un buen asado",
+        "Prepara unas ricas crispetas",
+        "Prepara unos ricos Nachos con Guacamole"
       ],
       'Aire Libre': [
         "Jugar escondite",
-        "Leer en el parque",
-        "Caminata",
-        "Excursión al campo",
-        "Observar estrellas",
-        "Cuenta una historia"
+        "Organizar una sesión de lectura en un área verde",
+        "Realizar una caminata juntos",
+        "Ir de excursión a una cascada o una cueva natural",
+        "Organizar una sesión de observación de estrellas con un telescopio o simplemente a simple vista.",
+        "Contar historias interesantes de cada uno"
       ],
-      'Arte': ["Hacer tarjeta cumpleaños", "Leer un libro", "Dibujo tema libre"],
+      'Arte': [
+        "Hacer tarjetas de cumpleaños o felicitaciones personalizadas para amigos y familiares", 
+        "Escoge un buen libro para empezar a leer con tu familia", 
+        "Todos juntos Dibujar en una hoja con lapiz un tema de interes y hablar de ello"],
+
       'Juegos de mesa': [
-        "Jugar cartas",
-        "Jugar bingo",
-        "Jugar stop",
-        "Jugar ahorcado",
-        "Jugar parques",
-        "Libre elección"
+        "Hora de jugar cartas",
+        "JHora de jugar Bingo",
+        "Escoger un juego interesante para integrar a la familia",
+        "Hora de jugar Stop",
+        "Hora de jugar Ahorcado",
+        "Hora de jugar Parques"
       ],
       'Entretenimiento': [
-        "Película de acción",
-        "Película de comedia",
-        "Película de drama",
-        "Película de suspenso",
-        "Película de terror",
-        "Película animada",
-        "Documental"
+        "Escoger una buena pelicula de Acción para ver juntos",
+        "Escoger una buena pelicula de Comedia para ver juntos",
+        "Escoger una buena pelicula de Drama para ver juntos",
+        "Escoger una buena pelicula de Suspenso para ver juntos",
+        "Escoger una buena pelicula de Terror para ver juntos",
+        "Escoger una buena pelicula de Animada para ver juntos",
+        "Escoger una buen documental para ver juntosl",
+        "Hacer una maratón de películas",
+        "Ver TV juntos"
       ]
     };
 
@@ -90,7 +96,7 @@ class _TipoJuegoView2State extends State<TipoJuegoView2> {
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 50),
             child: Text(
-              'Elije Tipo de Juego',
+              'Elige Tipo de Juego',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 30,
