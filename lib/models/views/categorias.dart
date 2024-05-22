@@ -120,7 +120,7 @@ class _CategoriasViewsState extends State<CategoriasViews> {
           children: [
             const SizedBox(height: 30),
            const  Center(
-              child:  Text('Elegir Catogoría',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30.0),)
+              child:  Text('Elegir Categoría',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30.0),)
             ),
             const SizedBox(height: 50),
             Expanded(
